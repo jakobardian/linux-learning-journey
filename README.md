@@ -26,21 +26,20 @@ The lab is structured into multiple modules covering:
 
 ## Repository Structure
 
-linux-learning-journey/
-├── 01-user-access-management/
-├── 02-service-management/
-├── 03-process-management/
-├── 04-log-troubleshooting/
-├── 05-networking/
-├── 06-storage/
-├── 07-security/
-├── 08-multi-vm-infrastructure/
-├── 09-automation/
-├── administration-scenarios/
-├── incident-simulation/
-├── scripts/
-└── README.md
-
+- linux-learning-journey/
+- 01-user-access-management/
+- 02-service-management/
+- 03-process-management/
+- 04-log-troubleshooting/
+- 05-networking/
+- 06-storage/
+- 07-security/ 
+- 08-multi-vm-infrastructure/
+- 09-automation/
+- administration-scenarios/
+- incident-simulation/
+- scripts/
+- README.md
 
 ## Notes
 All exercises are performed in a personal lab environment for learning purposes.
