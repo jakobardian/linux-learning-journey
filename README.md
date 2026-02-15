@@ -29,20 +29,20 @@ This lab is structured into multiple modules covering:
 
 ## Repository Structure
 
-- 01-filesystem-permission-management
-- 02-user-access-management
-- 03-package-system-maintenance
-- 04-process-resource-management
-- 05-systemd-service-troubleshooting
-- 06-linux-networking-fundamentals
-- 07-firewall-ssh-hardening
-- 08-storage-disk-incident-handling
-- 09-logging-system-troubleshooting
-- 10-backup-recovery
-- 11-multi-vm-infrastructure-simulation
-- 12-bash-automation
-- 13-basic-system-monitoring
-- 14-incident-simulation-rca
+- 01-filesystem-permission-management/
+- 02-user-access-management/
+- 03-package-system-maintenance/
+- 04-process-resource-management/
+- 05-systemd-service-troubleshooting/
+- 06-linux-networking-fundamentals/
+- 07-firewall-ssh-hardening/
+- 08-storage-disk-incident-handling/
+- 09-logging-system-troubleshooting/
+- 10-backup-recovery/
+- 11-multi-vm-infrastructure-simulation/
+- 12-bash-automation/
+- 13-basic-system-monitoring/
+- 14-incident-simulation-rca/
 
 - administration-scenarios/
 - incident-simulation/
