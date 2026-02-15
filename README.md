@@ -28,7 +28,7 @@ This lab is structured into multiple modules covering:
 - Virtual Machine: VMware Workstation Pro ver.25H2
 
 ## Repository Structure
-y
+
 - 01-filesystem-permission-management
 - 02-user-access-management
 - 03-package-system-maintenance
