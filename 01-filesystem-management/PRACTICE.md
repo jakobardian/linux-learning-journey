@@ -37,32 +37,32 @@ sudo mkdir -p /srv/chiangrai-app/config
 sudo mkdir -p /srv/chiangrai-app/logs
 sudo mkdir -p /srv/chiangrai-app/backup
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-create-directory-structure.png)
+![Screenshot](screenshot/m1p1-create-directory-structure.png)
 
 **Verify**
 
 ```zsh
 tree /srv/chiangrai-app
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-create-directory-structure-verify.png)
+![Screenshot](screenshot/m1p1-create-directory-structure-verify.png)
 
 #### Step 2. Create Sample Files
 Create a sample file for the Chiangrai web application
 **Command**:
-```zsh
+```zs
 sudo touch <DIRECTORY><FILE>
 ```zsh
 sudo touch /srv/chiangrai-app/app/main.py
 sudo touch /srv/chiangrai-app/config/app.conf
 sudo touch /srv/chiangrai-app/logs/app.log
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-create-sample-files.png)
+![Screenshot](screenshot/m1p1-create-sample-files.png)
 
 **Verify**
 ```zsh
 tree /srv/chiangrai-app
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-create-sample-files-verify.png)
+![Screenshot](screenshot/m1p1-create-sample-files-verify.png)
 
 #### Step 3. Move & Rename File
 Move or rename a file
@@ -74,7 +74,7 @@ sudo mv <PATH_DIR><FILE> <PATH_DIR><NEW_FILE_NAME>
 ```zsh
 sudo mv /srv/chiangrai-app/app/main.py /srv/chiangrai-app/app/server.py
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-rename-file.png)
+![Screenshot](screenshot/m1p1-rename-file.png)
 
 #### Step 4. Verify Directory Tree
 Verify the file directory with the directory tree 
@@ -86,7 +86,7 @@ tree <DIRECTORY>
 ```zsh
 tree /srv/chiangrai-app
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-verify-directory-tree.png)
+![Screenshot](screenshot/m1p1-verify-directory-tree.png)
 
 #### Step 5. Cleanup Directory Structure
 Delete directory files
@@ -103,6 +103,6 @@ sudo rm -r -i <DIRECTORY_FILE>
 ```zsh
 sudo rm -rf /srv/chiangrai-app
 ```
-![Screenshot](/home/stacey/github-work/linux-learning-journey/01-filesystem-management/screenshot/m1p1-cleanup-directory-file.png)
+![Screenshot](screenshot/m1p1-cleanup-directory-file.png)
 
 
