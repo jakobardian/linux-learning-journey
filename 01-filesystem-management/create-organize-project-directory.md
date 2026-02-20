@@ -1,23 +1,17 @@
-# Practice - Filesystem Management
+# Create & Organize Project Directory
 
 ## Objective
-To practice and validate core Linux filesystem operations 
-and permission management through structured hands-on exercises.
+Practice of creating and organizing project directories 
+through structured hands-on exercises.
 
-## Lab Environment
-- OS: Ubuntu 22.04 LTS
-- Shell: Zsh
-
-## Methodology
+## Section Structure
 Each section follows this workflow:
-1. Execute task
-2. Verify result
-3. Observe system behavior
-4. Clean up environment
+1. Goal 
+2. Execute task
+3. Verification
+4. Notes
 
-## Hands-on Practice 
-
-### 1. Create & Organize Project Directory
+## Hands-on Practice - Create & Organize Project Directory
 
 #### Scenario
 This lab simulates preparing the directory structure for deploying 
@@ -49,7 +43,7 @@ tree /srv/chiangrai-app
 #### Step 2. Create Sample Files
 Create a sample file for the Chiangrai web application
 **Command**:
-```zs
+```zsh
 sudo touch <DIRECTORY><FILE>
 ```zsh
 sudo touch /srv/chiangrai-app/app/main.py
@@ -104,5 +98,3 @@ sudo rm -r -i <DIRECTORY_FILE>
 sudo rm -rf /srv/chiangrai-app
 ```
 ![Screenshot](screenshot/m1p1-cleanup-directory-file.png)
-
-

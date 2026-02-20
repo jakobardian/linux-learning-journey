@@ -1,53 +1,31 @@
 # Linux Learning Journey
+A hands-on documentation of my Linux system administration 
+learning path, covering core sysadmin skills from filesystem 
+management to multi-VM infrastructure.
 
-## Learning Objective
-This project focuses on building strong Linux system administration 
-fundamentals through structured hands-on practice and simulated 
-scenarios in a virtual machine environment.
-
-## Learning Module
+## Modules
 This lab is structured into multiple modules covering:
 
-- File system & permission management
-- User & access management
-- Package & system maintenance
-- Process & resource management
-- Systemd & service troubleshooting
-- Linux networking fundamentals
-- Firewall & SSH hardening
-- Storage & disk incident handling
-- Logging & troubleshooting
-- Backup & recovery
-- Multi-VM infrastructure simulation
-- Bash automation
-- Basic system monitoring
-- Incident simulation & basic RCA
+- 01 — Filesystem & Permission Management
+- 02 — User & Access Management
+- 03 — Package & System Maintenance
+- 04 — Process & Resource Management
+- 05 — Systemd & Service Management
+- 06 — Linux Networking Fundamentals
+- 07 — Firewall & SSH Hardening
+- 08 — Storage & Disk Management
+- 09 — Logging & Troubleshooting
+- 10 — Backup & Recovery
+- 11 - Bash Automation
+- 12 — Cron & Task Scheduling
+- 13 — Text Processing & Log Analysis
+- 14 — Security Audit
+- 15 — Multi-VM Infrastructure
 
 ## Lab Environment
-- OS: Ubuntu Desktop ver.24.04 LTS
-- Virtual Machine: VMware Workstation Pro ver.25H2
-
-## Repository Structure
-
-- 01-filesystem-permission-management/
-- 02-user-access-management/
-- 03-package-system-maintenance/
-- 04-process-resource-management/
-- 05-systemd-service-troubleshooting/
-- 06-linux-networking-fundamentals/
-- 07-firewall-ssh-hardening/
-- 08-storage-disk-incident-handling/
-- 09-logging-system-troubleshooting/
-- 10-backup-recovery/
-- 11-multi-vm-infrastructure-simulation/
-- 12-bash-automation/
-- 13-basic-system-monitoring/
-- 14-incident-simulation-rca/
-
-- administration-scenarios/
-- incident-simulation/
-- README.md
+- Hypervisor: VMware Workstation ver.25H2
+- Operating System: Ubuntu Desktop ver.24.04 LTS
+- Shell: Zsh
 
 ## Notes
-All exercises are performed in a personal lab environment for learning purposes.
-
+All learning modules are implemented through hands-on exercises in a VM lab.
