@@ -33,7 +33,7 @@ tree /srv/yourapp
 ```
 #### Expected Output
 ```
-/srv/myapp
+/srv/yourapp
 ├── app
 ├── backup
 ├── config
@@ -60,11 +60,11 @@ sudo touch /srv/yourapp/backup/.gitkeep
 ```
 #### Verify
 ```zsh
-tree /srv/myapp
+tree /srv/yourapp
 ```
 #### Expected Output
 ```
-/srv/myapp
+/srv/yourapp
 ├── app
 │   └── main.py
 ├── backup
